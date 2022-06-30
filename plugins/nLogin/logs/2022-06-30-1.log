@@ -1,0 +1,45 @@
+[06/30/2022 14:41:55]:           __             _       
+[06/30/2022 14:41:55]:   _ __   / /  ___   __ _(_)_ __  
+[06/30/2022 14:41:55]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06/30/2022 14:41:55]:  | | | / /__| (_) | (_| | | | | |
+[06/30/2022 14:41:55]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06/30/2022 14:41:55]:                   |___/            
+[06/30/2022 14:41:55]:  By: www.nickuc.com - V 10.0.22 DEVELOPMENT
+[06/30/2022 14:41:55]: 
+[06/30/2022 14:41:55]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[06/30/2022 14:41:55]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[06/30/2022 14:41:55]: §3[nLogin] [DEBUG] The messages_br.yml message file was created successfully.
+[06/30/2022 14:41:55]: §3[nLogin] [DEBUG] The messages_en.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_es.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_pl.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_ru.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_fr.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_lt.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_de.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_tr.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_hu.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_cn.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_cz.yml message file was created successfully.
+[06/30/2022 14:41:56]: §3[nLogin] [DEBUG] The messages_ro.yml message file was created successfully.
+[06/30/2022 14:42:03]: §3[nLogin] [DEBUG] All settings were loaded in 7460 ms.
+[06/30/2022 14:42:03]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[06/30/2022 14:42:03]: §3[nLogin] [DEBUG] All plugin messages were loaded in 36 ms (languageByClient=false).
+[06/30/2022 14:42:03]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
+[06/30/2022 14:42:03]: §3[nLogin] [DEBUG] Starting logger filter...
+[06/30/2022 14:42:03]: §3[nLogin] [DEBUG] Loading database...
+[06/30/2022 14:42:03]: [nLogin] Generating RSA keypair... (this may take a while)
+[06/30/2022 14:42:07]: [nLogin] The RSA key pair was successfully generated. Took 3.71s
+[06/30/2022 14:42:07]: [nLogin] A new type of conversion has been detected.
+[06/30/2022 14:42:07]: [nLogin] Starting the OpeNLogin conversion...
+[06/30/2022 14:42:07]: §e[nLogin] [WARN] Initializing the OpeNLogin conversion
+[06/30/2022 14:42:07]: §e[nLogin] [WARN] Please do not shut down your server.
+[06/30/2022 14:42:07]: [nLogin] OpeNLogin data has been successfully converted.
+[06/30/2022 14:42:07]: [nLogin] No users have been converted ~ 0.10s
+[06/30/2022 14:42:09]: §e[nLogin] [WARN] ProtocolLib has been successfully downloaded.
+[06/30/2022 14:42:09]: §e[nLogin] [WARN] Restarting server to apply changes...
+[06/30/2022 14:42:09]: [nLogin] nLogin was loaded in 13338ms.
+[06/30/2022 14:42:10]: [nLogin] Successful plugin core shutdown. Took 0ms
+[06/30/2022 14:42:10]: [nLogin] 
+[06/30/2022 14:42:10]: [nLogin] Shutting down nLogin V 10.0.22...
+[06/30/2022 14:42:10]: [nLogin] 
+[06/30/2022 14:42:10]: [nLogin] nLogin was unloaded in 3ms.

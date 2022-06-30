@@ -76,7 +76,7 @@ database:
     connection-address: "localhost:3306"
     connection-database: "nLogin"
     connection-user: "root"
-    connection-password: ""
+    connection-password: "qwerty321"
 
     # Set the connection properties.
     # - Don't change this information if you don't know what you are doing!
@@ -89,8 +89,8 @@ database:
   # Defines the connection pool settings.
   # - Don't change this information if you don't know what you are doing!
   pool-settings:
-    maximum-pool-size: 10
-    minimum-idle: 10
+    maximum-pool-size: 100
+    minimum-idle: 100
     maximum-lifetime: 1800000 # 30 minutos
     connection-timeout: 5000 # 5 segundos
 

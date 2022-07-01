@@ -1,133 +1,137 @@
-[21:49:29] [ServerMain/INFO]: Building unoptimized datafixer
-[21:49:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:49:31] [ServerMain/WARN]: Couldn't get pack info for: net.minecraft.server.packs.ResourceNotFoundException: 'pack.mcmeta' in ResourcePack '.\Bulca\datapacks\Paints_Dynamic_Lighting_v1.1_for_1.19.zip'
-[21:49:36] [ServerMain/INFO]: Loaded 7 recipes
-[21:49:38] [Server thread/INFO]: Starting minecraft server version 1.19
-[21:49:38] [Server thread/INFO]: Loading properties
-[21:49:38] [Server thread/INFO]: This server is running Paper version git-Paper-32 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 4c9317c)
-[21:49:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:49:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:49:38] [Server thread/INFO]: Default game type: SURVIVAL
-[21:49:38] [Server thread/INFO]: Generating keypair
-[21:49:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:49:38] [Server thread/INFO]: Using default channel type
-[21:49:38] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[21:49:38] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:49:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[21:49:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@66f89089]
-[21:49:40] [Server thread/INFO]: [GSit] Loading GSit v1.1.0
-[21:49:40] [Server thread/INFO]: [Chunky] Loading Chunky v1.2.217
-[21:49:40] [Server thread/INFO]: [PlasmoVoice] Loading PlasmoVoice v1.0.10
-[21:49:40] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b573
-[21:49:41] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
-[21:49:41] [Server thread/INFO]: [nLogin] Loading nLogin v10.0.22
-[21:49:41] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
-[21:49:41] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.1
-[21:49:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:49:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[21:49:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:49:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:49:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[21:49:43] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b573
-[21:49:43] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[21:49:43] [Server thread/INFO]: [nLogin] Enabling nLogin v10.0.22
-[21:49:43] [Server thread/INFO]: [nLogin] Successful plugin core start. Took 277ms
-[21:49:43] [Server thread/INFO]:           __             _       
-[21:49:43] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[21:49:43] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[21:49:43] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[21:49:43] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[21:49:43] [Server thread/INFO]:                   |___/            
-[21:49:43] [Server thread/INFO]:  By: www.nickuc.com - V 10.0.22 DEVELOPMENT
-[21:49:43] [Server thread/INFO]: 
-[21:49:44] [Server thread/INFO]: [nLogin] nLogin was loaded in 869ms.
-[21:49:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:49:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:49:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:49:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:49:44] [Server thread/INFO]: Preparing level "Bulca"
-[21:49:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:49:45] [Server thread/INFO]: Time elapsed: 243 ms
-[21:49:45] [Server thread/INFO]: [GSit] Enabling GSit v1.1.0
-[21:49:45] [Server thread/INFO]: [GSit] The Plugin was successfully enabled.
-[21:49:45] [Server thread/INFO]: [Chunky] Enabling Chunky v1.2.217
-[21:49:45] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v1.0.10
-[21:49:45] [Thread-11/INFO]: [PlasmoVoice] Voice UDP server started on /0.0.0.0:25565
-[21:49:45] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
-[21:49:46] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
-[21:49:46] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-[21:49:46] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
-[21:49:46] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:786)
-[21:49:46] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
-[21:49:46] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
-[21:49:46] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
-[21:49:46] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[21:49:46] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
-[21:49:46] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
-[21:49:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:561)
-[21:49:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:475)
-[21:49:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:633)
-[21:49:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:419)
-[21:49:46] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:306)
-[21:49:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1121)
-[21:49:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
-[21:49:46] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[21:49:46] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[21:49:46] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[21:49:46] [Server thread/INFO]: --------------------
-[21:49:46] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[21:49:46] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[21:49:46] [Server thread/INFO]: --------------------
-[21:49:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.1
-[21:49:46] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
-[21:49:46] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[21:49:46] [Server thread/INFO]: Running delayed init tasks
-[21:49:46] [Server thread/INFO]: Done (8.652s)! For help, type "help"
-[21:49:46] [Server thread/INFO]: Timings Reset
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[32;1m |[0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.1[0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[21:49:47] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:49:47] [Server thread/WARN]: UUID of added entity already exists: EntityArmorStand['Armor Stand'/218, uuid='a093751a-2c77-4658-9d5f-62ab4494bdaf', l='ServerLevel[Bulca]', x=16562064.50, y=1000.00, z=-22242911.50, cpos=[1035129, -1390182], tl=4945, v=false]
-[21:49:47] [Server thread/WARN]: UUID of added entity already exists: EntityArmorStand['Armor Stand'/219, uuid='291dfbec-2b7b-4c2b-9899-f665ea53af5d', l='ServerLevel[Bulca]', x=22068880.50, y=1000.00, z=-4185487.50, cpos=[1379305, -261593], tl=4945, v=false]
-[21:49:54] [User Authenticator #1/INFO]: UUID of player M3SL0W is 39fd9823-91c5-3f47-adc9-8ec04e5d487e
-[21:49:54] [Server thread/INFO]: M3SL0W[/192.168.0.101:55236] logged in with entity id 222 at ([Bulca]1548.6712185936692, 85.0, 173.23272539512152)
-[21:50:05] [Craft Scheduler Thread - 9 - nLogin/INFO]: [nLogin] The user M3SL0W has successfully logged in.
-[21:50:06] [Server thread/INFO]: M3SL0W lost connection: Disconnected
-[21:50:08] [User Authenticator #1/INFO]: UUID of player M3SL0W is 39fd9823-91c5-3f47-adc9-8ec04e5d487e
-[21:50:08] [Server thread/INFO]: M3SL0W[/192.168.0.101:55254] logged in with entity id 436 at ([Bulca]1548.6712185936692, 85.0, 173.23272539512152)
-[21:50:11] [Server thread/INFO]: M3SL0W lost connection: Disconnected
-[21:50:21] [Server thread/INFO]: Неизвестная команда. Напиши "/help".
-[21:50:23] [Server thread/INFO]: Stopping the server
-[21:50:23] [Server thread/INFO]: Stopping server
-[21:50:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.1
-[21:50:23] [Server thread/INFO]: [nLogin] Disabling nLogin v10.0.22
-[21:50:23] [Server thread/INFO]: [nLogin] Successful plugin core shutdown. Took 0ms
-[21:50:23] [Server thread/INFO]: [nLogin] 
-[21:50:23] [Server thread/INFO]: [nLogin] Shutting down nLogin V 10.0.22...
-[21:50:23] [Server thread/INFO]: [nLogin] 
-[21:50:23] [Server thread/INFO]: [nLogin] nLogin was unloaded in 3ms.
-[21:50:23] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
-[21:50:23] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[21:50:24] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
-[21:50:24] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b573
-[21:50:24] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v1.0.10
-[21:50:24] [Server thread/INFO]: [Chunky] Disabling Chunky v1.2.217
-[21:50:24] [Server thread/INFO]: [GSit] Disabling GSit v1.1.0
-[21:50:24] [Server thread/INFO]: [GSit] The Plugin was successfully disabled.
-[21:50:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
-[21:50:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:50:24] [Server thread/INFO]: Saving players
-[21:50:24] [Server thread/INFO]: Saving worlds
-[21:50:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bulca]'/minecraft:overworld
-[21:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (Bulca): All chunks are saved
-[21:50:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:50:26] [Server thread/INFO]: Flushing Chunk IO
-[21:50:26] [Server thread/INFO]: Closing Thread Pool
-[21:50:26] [Server thread/INFO]: Closing Server
+[22:44:54] [ServerMain/INFO]: Building unoptimized datafixer
+[22:44:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:44:56] [ServerMain/WARN]: Couldn't get pack info for: net.minecraft.server.packs.ResourceNotFoundException: 'pack.mcmeta' in ResourcePack '.\Bulca\datapacks\Paints_Dynamic_Lighting_v1.1_for_1.19.zip'
+[22:45:00] [ServerMain/INFO]: Loaded 7 recipes
+[22:45:01] [Server thread/INFO]: Starting minecraft server version 1.19
+[22:45:01] [Server thread/INFO]: Loading properties
+[22:45:02] [Server thread/INFO]: This server is running Paper version git-Paper-32 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 4c9317c)
+[22:45:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:45:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:45:02] [Server thread/INFO]: Default game type: SURVIVAL
+[22:45:02] [Server thread/INFO]: Generating keypair
+[22:45:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:45:02] [Server thread/INFO]: Using default channel type
+[22:45:02] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[22:45:02] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:45:03] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:45:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@8ab20af]
+[22:45:03] [Server thread/INFO]: [GSit] Loading GSit v1.1.0
+[22:45:03] [Server thread/INFO]: [Chunky] Loading Chunky v1.2.217
+[22:45:03] [Server thread/INFO]: [PlasmoVoice] Loading PlasmoVoice v1.0.10
+[22:45:03] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b573
+[22:45:04] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[22:45:04] [Server thread/INFO]: [ChatControl] Loading ChatControl v5.9.1
+[22:45:04] [Server thread/INFO]: [nLogin] Loading nLogin v10.0.22
+[22:45:05] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
+[22:45:05] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.1
+[22:45:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:45:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:45:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:45:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:45:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:45:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b573
+[22:45:06] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[22:45:06] [Server thread/INFO]: [nLogin] Enabling nLogin v10.0.22
+[22:45:06] [Server thread/INFO]: [nLogin] Successful plugin core start. Took 244ms
+[22:45:06] [Server thread/INFO]:           __             _       
+[22:45:06] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[22:45:06] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[22:45:06] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[22:45:06] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[22:45:06] [Server thread/INFO]:                   |___/            
+[22:45:06] [Server thread/INFO]:  By: www.nickuc.com - V 10.0.22 DEVELOPMENT
+[22:45:06] [Server thread/INFO]: 
+[22:45:07] [Server thread/INFO]: [nLogin] nLogin was loaded in 684ms.
+[22:45:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:45:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:45:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:45:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:45:07] [Server thread/INFO]: Preparing level "Bulca"
+[22:45:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:45:08] [Server thread/INFO]: Time elapsed: 232 ms
+[22:45:08] [Server thread/INFO]: [GSit] Enabling GSit v1.1.0
+[22:45:08] [Server thread/INFO]: [GSit] The Plugin was successfully enabled.
+[22:45:08] [Server thread/INFO]: [Chunky] Enabling Chunky v1.2.217
+[22:45:08] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v1.0.10
+[22:45:08] [Thread-11/INFO]: [PlasmoVoice] Voice UDP server started on /0.0.0.0:25565
+[22:45:08] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[22:45:08] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "0162000877589"
+[22:45:08] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[22:45:08] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[22:45:08] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+[22:45:08] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.utility.Util.loadWorldEdit(Util.java:1022)
+[22:45:08] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.config.ConfigHandler.performInitialization(ConfigHandler.java:432)
+[22:45:08] [Server thread/WARN]: 	at CoreProtect-21.2.jar//net.coreprotect.CoreProtect.onEnable(CoreProtect.java:75)
+[22:45:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:45:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:45:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:536)
+[22:45:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:561)
+[22:45:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:475)
+[22:45:08] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:633)
+[22:45:08] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:419)
+[22:45:08] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:306)
+[22:45:08] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1121)
+[22:45:08] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:302)
+[22:45:08] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:45:08] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[22:45:08] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[22:45:08] [Server thread/INFO]: --------------------
+[22:45:08] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[22:45:08] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[22:45:08] [Server thread/INFO]: --------------------
+[22:45:08] [Server thread/INFO]: [ChatControl] Enabling ChatControl v5.9.1
+[22:45:08] [Server thread/INFO]: Hooked into: ProtocolLib (Packet Features)
+[22:45:08] [Server thread/INFO]: Created default file: settings.yml
+[22:45:09] [Server thread/INFO]: Created default file: rules.txt
+[22:45:09] [Server thread/INFO]: Created default file: handlers.yml
+[22:45:09] [Server thread/INFO]: Created default file: chat.txt
+[22:45:09] [Server thread/INFO]: Created default file: commands.txt
+[22:45:09] [Server thread/INFO]: Created default file: sign.txt
+[22:45:09] [Server thread/INFO]: Created default file: packets.txt
+[22:45:09] [Server thread/INFO]: Starting checker listener with NORMAL priority
+[22:45:09] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.1
+[22:45:09] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
+[22:45:09] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:45:09] [Server thread/INFO]: Running delayed init tasks
+[22:45:09] [Server thread/INFO]: Done (7.513s)! For help, type "help"
+[22:45:09] [Server thread/INFO]: Timings Reset
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[32;1m |[0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.1[0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[22:45:09] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:45:10] [Server thread/WARN]: UUID of added entity already exists: EntityArmorStand['Armor Stand'/202, uuid='a093751a-2c77-4658-9d5f-62ab4494bdaf', l='ServerLevel[Bulca]', x=16562064.50, y=1000.00, z=-22242911.50, cpos=[1035129, -1390182], tl=706, v=false]
+[22:45:10] [Server thread/WARN]: UUID of added entity already exists: EntityArmorStand['Armor Stand'/203, uuid='291dfbec-2b7b-4c2b-9899-f665ea53af5d', l='ServerLevel[Bulca]', x=22068880.50, y=1000.00, z=-4185487.50, cpos=[1379305, -261593], tl=705, v=false]
+[22:45:18] [Server thread/INFO]: Stopping the server
+[22:45:18] [Server thread/INFO]: Stopping server
+[22:45:18] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.1
+[22:45:18] [Server thread/INFO]: [nLogin] Disabling nLogin v10.0.22
+[22:45:18] [Server thread/INFO]: [nLogin] Successful plugin core shutdown. Took 0ms
+[22:45:18] [Server thread/INFO]: [nLogin] 
+[22:45:18] [Server thread/INFO]: [nLogin] Shutting down nLogin V 10.0.22...
+[22:45:18] [Server thread/INFO]: [nLogin] 
+[22:45:18] [Server thread/INFO]: [nLogin] nLogin was unloaded in 2ms.
+[22:45:18] [Server thread/INFO]: [ChatControl] Disabling ChatControl v5.9.1
+[22:45:18] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[22:45:18] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[22:45:19] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[22:45:19] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b573
+[22:45:19] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v1.0.10
+[22:45:19] [Server thread/INFO]: [Chunky] Disabling Chunky v1.2.217
+[22:45:19] [Server thread/INFO]: [GSit] Disabling GSit v1.1.0
+[22:45:19] [Server thread/INFO]: [GSit] The Plugin was successfully disabled.
+[22:45:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:45:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:45:19] [Server thread/INFO]: Saving players
+[22:45:19] [Server thread/INFO]: Saving worlds
+[22:45:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Bulca]'/minecraft:overworld
+[22:45:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (Bulca): All chunks are saved
+[22:45:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:45:21] [Server thread/INFO]: Flushing Chunk IO
+[22:45:21] [Server thread/INFO]: Closing Thread Pool
+[22:45:21] [Server thread/INFO]: Closing Server
